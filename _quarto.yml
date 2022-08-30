@@ -1,0 +1,38 @@
+ipynb-filters: [nbdev_filter]
+
+project:
+  type: website
+  output-dir: _docs
+  preview:
+    port: 3000
+    browser: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+
+website:
+  title: "ctis-bangkok"
+  site-url: "https://calremmel.github.io/ctis-bangkok"
+  description: "Code for paper Covid-19 Vaccine Acceptance and Uptake in Bangkok, Thailand: Cross-Sectional Survey via Social Media."
+  twitter-card: true
+  open-graph: true
+  reader-mode: true
+  repo-branch: master
+  repo-url: "https://github.com/calremmel/ctis-bangkok"
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    search: true
+    right:
+      - icon: github
+        href: "https://github.com/calremmel/ctis-bangkok"
+  sidebar:
+    style: "floating"
+
+metadata-files: 
+  - sidebar.yml
+  - custom.yml
